@@ -1,0 +1,11 @@
+V	281216143651Z		01	unknown	/C=CL/ST=SA/L=Santiago/O=TECNOLOGIA-INTEGRAL-SA/OU=ImasD/CN=TISAVPN/name=TISAVPN/emailAddress=cloud@tecintegral.cl
+V	281216143745Z		02	unknown	/C=CL/ST=SA/L=Santiago/O=TECNOLOGIA-INTEGRAL-SA/OU=ImasD/CN=molduras1/name=TISAVPN/emailAddress=cloud@tecintegral.cl
+V	281216155916Z		03	unknown	/C=CL/ST=SA/L=Santiago/O=TECNOLOGIA-INTEGRAL-SA/OU=ImasD/CN=dsb/name=TISAVPN/emailAddress=cloud@tecintegral.cl
+V	290726220827Z		04	unknown	/C=CL/ST=SA/L=Santiago/O=TECNOLOGIA-INTEGRAL-SA/OU=ImasD/CN=smap-test/name=TISAVPN/emailAddress=cloud@tecintegral.cl
+V	290816142049Z		05	unknown	/C=CL/ST=SA/L=Santiago/O=TECNOLOGIA-INTEGRAL-SA/OU=ImasD/CN=pmchs10/name=TISAVPN/emailAddress=cloud@tecintegral.cl
+V	290816142119Z		06	unknown	/C=CL/ST=SA/L=Santiago/O=TECNOLOGIA-INTEGRAL-SA/OU=ImasD/CN=pmchs9/name=TISAVPN/emailAddress=cloud@tecintegral.cl
+V	290818125259Z		07	unknown	/C=CL/ST=SA/L=Santiago/O=TECNOLOGIA-INTEGRAL-SA/OU=ImasD/CN=sls/name=TISAVPN/emailAddress=cloud@tecintegral.cl
+V	291026193553Z		08	unknown	/C=CL/ST=SA/L=Santiago/O=TECNOLOGIA-INTEGRAL-SA/OU=ImasD/CN=nagios/name=TISAVPN/emailAddress=cloud@tecintegral.cl
+V	291104135236Z		09	unknown	/C=CL/ST=SA/L=Santiago/O=TECNOLOGIA-INTEGRAL-SA/OU=ImasD/CN=nagios1/name=TISAVPN/emailAddress=cloud@tecintegral.cl
+V	291122123834Z		0A	unknown	/C=CL/ST=SA/L=Santiago/O=TECNOLOGIA-INTEGRAL-SA/OU=ImasD/CN=smartphone-slara/name=TISAVPN/emailAddress=cloud@tecintegral.cl
+V	291126211329Z		0B	unknown	/C=CL/ST=SA/L=Santiago/O=TECNOLOGIA-INTEGRAL-SA/OU=ImasD/CN=ggb/name=TISAVPN/emailAddress=cloud@tecintegral.cl

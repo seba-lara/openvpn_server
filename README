@@ -1,0 +1,24 @@
+Open-VPN Servicio de conexion via tunel para dispositivos con credenciales otorgadas.
+
+* Para usar installer.sh
+1° Ejecute el instalador mediante ./installer.sh "IP DEL SERVIDOR LOCAL + IP DEL TUNEL VPN" (sin comillas y signo "+")
+
+* Para crear credenciales
+1° Ingresar al directorio /root/openvpn-ca2 
+
+2° Ejecutar "source vars" (sin comillas)
+
+3° ./build-key "nombredeusuario" (sin comillas)
+
+4° Debe extraer los siguientes archivos que serán propiedad del cliente 
+- ca.crt
+- ca.key
+- user.crt
+- user.key
+- ta.key
+
+* Para el cliente
+1° Guardar las credenciales en el directorio /etc/openvpn/client
+
+2° En el archivo /etc/openvpn/client.ovpn indicar la ruta de las credenciales
+   anteriormente guardadas en el 1° punto del modulo del cliente

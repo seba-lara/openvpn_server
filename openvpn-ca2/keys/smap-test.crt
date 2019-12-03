@@ -1,0 +1,98 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 4 (0x4)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=CL, ST=SA, L=Santiago, O=TECNOLOGIA-INTEGRAL-SA, OU=ImasD, CN=TECNOLOGIA-INTEGRAL-SA CA/name=TISAVPN/emailAddress=cloud@tecintegral.cl
+        Validity
+            Not Before: Jul 29 22:08:27 2019 GMT
+            Not After : Jul 26 22:08:27 2029 GMT
+        Subject: C=CL, ST=SA, L=Santiago, O=TECNOLOGIA-INTEGRAL-SA, OU=ImasD, CN=smap-test/name=TISAVPN/emailAddress=cloud@tecintegral.cl
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:ac:e6:5f:8e:a9:bc:5f:7e:b4:b3:9a:c2:93:22:
+                    f7:f0:ed:53:8c:43:cc:26:64:74:77:cf:00:c4:99:
+                    11:45:ac:b8:d1:2b:75:46:eb:13:90:bf:1b:93:c5:
+                    c1:61:32:d4:2b:fc:34:47:d9:be:ac:c2:a9:e8:77:
+                    3a:7d:3a:27:63:18:84:41:13:47:4a:28:72:56:c7:
+                    7c:23:ae:17:51:8f:c4:4e:c0:d0:bb:4c:fa:c2:cc:
+                    27:82:3a:dc:b2:f3:3b:e0:b6:35:b1:57:ca:da:9c:
+                    81:d0:f6:b0:2c:98:87:19:57:6d:4c:b0:08:95:ca:
+                    a4:36:d8:b1:32:4d:aa:e2:78:94:44:d9:61:dd:e2:
+                    77:c8:7b:a3:bf:c5:d8:ed:5b:4b:9e:d7:74:21:1f:
+                    48:c1:e3:5e:22:93:5f:fb:f4:e4:31:47:97:30:68:
+                    cb:ce:26:cd:57:4d:04:9f:ef:6e:3a:35:1e:9e:a4:
+                    f4:86:ea:e3:69:c3:25:2d:c9:e9:ef:db:b2:5f:d1:
+                    c3:b6:76:10:17:fd:c1:f5:06:d7:94:c4:3f:70:e6:
+                    55:cd:ce:b7:e8:4a:92:81:00:5b:f6:7d:e4:8d:5c:
+                    74:fa:9d:6a:ef:1b:04:30:0c:d0:62:99:3f:48:86:
+                    ba:4f:e0:f4:5a:00:7e:72:8c:6d:21:bb:3a:79:14:
+                    ba:cd
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                3E:E4:95:B7:8E:8C:ED:09:FA:F0:81:D7:AC:3C:86:E6:B3:4B:0E:19
+            X509v3 Authority Key Identifier: 
+                keyid:1B:E7:8E:DA:B7:C0:AE:88:01:D6:FD:CF:8A:7D:41:71:19:30:87:71
+                DirName:/C=CL/ST=SA/L=Santiago/O=TECNOLOGIA-INTEGRAL-SA/OU=ImasD/CN=TECNOLOGIA-INTEGRAL-SA CA/name=TISAVPN/emailAddress=cloud@tecintegral.cl
+                serial:E3:A7:17:FC:53:FB:81:FF
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+            X509v3 Subject Alternative Name: 
+                DNS:smap-test
+    Signature Algorithm: sha256WithRSAEncryption
+         a6:59:65:f4:71:ba:94:69:d7:b9:04:71:c1:e0:ba:cd:76:6e:
+         18:92:94:9d:55:a7:28:f7:7e:69:45:58:00:6b:c4:bf:a2:35:
+         e3:d7:22:2e:4d:3e:ba:4e:ab:51:a8:1c:5b:a1:e8:ca:6e:d3:
+         9a:03:c6:f2:13:71:e0:bc:c3:d4:77:9f:7c:1a:a7:35:c5:da:
+         eb:1c:ec:1c:83:47:06:9e:09:61:77:7e:59:bb:95:25:7c:69:
+         48:8c:33:31:23:61:4e:54:d3:0e:58:5c:79:3e:7f:f9:ae:f3:
+         e4:34:47:6d:2e:68:cd:a8:c0:11:22:c0:68:36:bf:45:49:c2:
+         e7:5e:a7:73:fa:66:c7:4e:08:5e:ab:19:63:bb:04:ea:7b:e5:
+         42:c5:8a:f3:81:bf:72:d2:2d:a3:43:7d:ba:82:cc:39:75:d7:
+         5d:23:b5:df:c3:b9:c0:94:02:3f:80:b1:4a:cd:72:1f:37:97:
+         d3:84:8e:e0:44:3f:a9:20:e6:d6:c2:b8:b5:a0:a6:e0:64:51:
+         7a:29:03:7e:78:71:54:0d:ce:51:02:06:0f:43:b8:90:31:72:
+         68:c6:f7:ed:ce:6e:dd:33:72:d8:20:88:a8:26:ce:0b:ab:8c:
+         1f:d5:86:52:be:28:d8:5d:92:d1:4d:a7:a2:66:42:af:d3:01:
+         00:16:17:56
+-----BEGIN CERTIFICATE-----
+MIIFZzCCBE+gAwIBAgIBBDANBgkqhkiG9w0BAQsFADCBuTELMAkGA1UEBhMCQ0wx
+CzAJBgNVBAgTAlNBMREwDwYDVQQHEwhTYW50aWFnbzEfMB0GA1UEChMWVEVDTk9M
+T0dJQS1JTlRFR1JBTC1TQTEOMAwGA1UECxMFSW1hc0QxIjAgBgNVBAMTGVRFQ05P
+TE9HSUEtSU5URUdSQUwtU0EgQ0ExEDAOBgNVBCkTB1RJU0FWUE4xIzAhBgkqhkiG
+9w0BCQEWFGNsb3VkQHRlY2ludGVncmFsLmNsMB4XDTE5MDcyOTIyMDgyN1oXDTI5
+MDcyNjIyMDgyN1owgakxCzAJBgNVBAYTAkNMMQswCQYDVQQIEwJTQTERMA8GA1UE
+BxMIU2FudGlhZ28xHzAdBgNVBAoTFlRFQ05PTE9HSUEtSU5URUdSQUwtU0ExDjAM
+BgNVBAsTBUltYXNEMRIwEAYDVQQDEwlzbWFwLXRlc3QxEDAOBgNVBCkTB1RJU0FW
+UE4xIzAhBgkqhkiG9w0BCQEWFGNsb3VkQHRlY2ludGVncmFsLmNsMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArOZfjqm8X360s5rCkyL38O1TjEPMJmR0
+d88AxJkRRay40St1RusTkL8bk8XBYTLUK/w0R9m+rMKp6Hc6fTonYxiEQRNHSihy
+Vsd8I64XUY/ETsDQu0z6wswngjrcsvM74LY1sVfK2pyB0PawLJiHGVdtTLAIlcqk
+NtixMk2q4niURNlh3eJ3yHujv8XY7VtLntd0IR9IweNeIpNf+/TkMUeXMGjLzibN
+V00En+9uOjUenqT0hurjacMlLcnp79uyX9HDtnYQF/3B9QbXlMQ/cOZVzc636EqS
+gQBb9n3kjVx0+p1q7xsEMAzQYpk/SIa6T+D0WgB+coxtIbs6eRS6zQIDAQABo4IB
+hjCCAYIwCQYDVR0TBAIwADAtBglghkgBhvhCAQ0EIBYeRWFzeS1SU0EgR2VuZXJh
+dGVkIENlcnRpZmljYXRlMB0GA1UdDgQWBBQ+5JW3joztCfrwgdesPIbms0sOGTCB
+7gYDVR0jBIHmMIHjgBQb547at8CuiAHW/c+KfUFxGTCHcaGBv6SBvDCBuTELMAkG
+A1UEBhMCQ0wxCzAJBgNVBAgTAlNBMREwDwYDVQQHEwhTYW50aWFnbzEfMB0GA1UE
+ChMWVEVDTk9MT0dJQS1JTlRFR1JBTC1TQTEOMAwGA1UECxMFSW1hc0QxIjAgBgNV
+BAMTGVRFQ05PTE9HSUEtSU5URUdSQUwtU0EgQ0ExEDAOBgNVBCkTB1RJU0FWUE4x
+IzAhBgkqhkiG9w0BCQEWFGNsb3VkQHRlY2ludGVncmFsLmNsggkA46cX/FP7gf8w
+EwYDVR0lBAwwCgYIKwYBBQUHAwIwCwYDVR0PBAQDAgeAMBQGA1UdEQQNMAuCCXNt
+YXAtdGVzdDANBgkqhkiG9w0BAQsFAAOCAQEAplll9HG6lGnXuQRxweC6zXZuGJKU
+nVWnKPd+aUVYAGvEv6I149ciLk0+uk6rUagcW6Hoym7TmgPG8hNx4LzD1HeffBqn
+NcXa6xzsHINHBp4JYXd+WbuVJXxpSIwzMSNhTlTTDlhceT5/+a7z5DRHbS5ozajA
+ESLAaDa/RUnC516nc/pmx04IXqsZY7sE6nvlQsWK84G/ctIto0N9uoLMOXXXXSO1
+38O5wJQCP4CxSs1yHzeX04SO4EQ/qSDm1sK4taCm4GRReikDfnhxVA3OUQIGD0O4
+kDFyaMb37c5u3TNy2CCIqCbOC6uMH9WGUr4o2F2S0U2nomZCr9MBABYXVg==
+-----END CERTIFICATE-----
