@@ -7,6 +7,7 @@ ______________________
 - Ejecute el instalador mediante el siguiente comando "./installer.sh + IP DEL SERVIDOR LOCAL + IP DEL TUNEL VPN" (sin comillas ni signo "+")
 - Terminado el paso anterior se recomienda reiniciar el servidor y revisar si las reglas de iptables fueron restauradas correctamente (iptables-save | grep tun o MASQ)
 
+*IMPORTANTE : La ip asignada a la red del tunel VPN, siempre debe ser la ".0" por ejemplo, x.x.x.0 donde x es un numero entre 1 y 254*
 *Se agregará al servidor un servicio Daemon (iptables-rules.service) que ejecuta la restauracion de las reglas de iptables*.
 
 ####2° Para crear credenciales
