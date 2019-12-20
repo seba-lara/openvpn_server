@@ -1,15 +1,16 @@
-echo " 1° Desinstalando OpenVPN "
+echo " Desinstalando OpenVPN "
 
-yum -y erase wget
-yum -y erase openvpn
-yum -y erase epel-release
-yum -y erase iptables-services
-yum -y erase cockpit
-systemctl restart NetworkManager
+yum -y	erase wget
+yum -y	erase openvpn
+yum -y	erase epel-release
 
-rm -rf /etc/systemd/system/reglas.service
-rm -rf openvpn-ca2/
-rm -rf /etc/sysconfig/iptables
+rm -f /etc/systemd/system/iptables-rules.service
+rm -rf /root/openvpn-ca2/
+rm -f /etc/sysconfig/iptables
 rm -rf /var/log/openvpn
 rm -rf /etc/openvpn
-rm -rf /tmp/crontab.*
+
+systemctl daemon-reload
+echo " SE RECOMIENDA REINICIAR EL SERVIDOR "
+
+rm -f /root/uninstall.sh

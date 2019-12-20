@@ -1,0 +1,11 @@
+[Unit]
+Description = Apply IPv4 iptables rules
+After=multi-user.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c "/usr/sbin/iptables-restore < /etc/sysconfig/iptables"
+
+[Install]
+WantedBy=multi-user.target
+

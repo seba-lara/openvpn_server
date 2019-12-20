@@ -21,13 +21,12 @@ sudo firewall-cmd --reload
 
 echo " 2° Copiando y creando archivos necesarios "
 
-mkdir /var/log/openvpn
-touch /etc/sysconfig/iptables
-cp reglas.service /etc/systemd/system/.
-cp crontab.tisa /tmp/.
-cp uninstall.sh /root/.
-cp -r openvpn/ /etc/.
-cp -r openvpn-ca2/ /root/.
+mkdir	/var/log/openvpn
+touch	/etc/sysconfig/iptables
+cp	iptables-rules.service /etc/systemd/system/.
+cp	uninstall.sh /root/.
+cp -r	openvpn/ /etc/.
+cp -r	openvpn-ca2/ /root/.
 
 sed -i "s/%%IP_SERVER%%/${ARG1}/g" \
   /etc/openvpn/server.conf
@@ -41,13 +40,14 @@ cat iptables > /etc/sysconfig/iptables
 
 echo " 5° Reiniciando servicios y creando enlaces simbolicos "
 
+sudo firewall-cmd --reload
+systemctl daemon-reload
 systemctl restart firewalld
-systemctl start openvpn@server.service
-systemctl enable openvpn@server.service
-systemctl start reglas.service
-systemctl enable reglas.service
-
-iptables-restore < /etc/sysconfig/iptables
+sleep 5
+systemctl enable openvpn@server
+systemctl restart openvpn@server
+systemctl enable iptables-rules.service
+systemctl restart iptables-rules.service
 
 echo " SE RECOMIENDA REINICIAR EL SERVIDOR, SALUDOS "
 
